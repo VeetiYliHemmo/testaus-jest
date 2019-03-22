@@ -1,4 +1,4 @@
-const ika = require('./harj1');
+const ika = require('./ika');
 
 test("Onko henkilö (20) täysi-ikäinen", () => {
         expect(ika(20)).toBe(true);
